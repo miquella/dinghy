@@ -7,6 +7,8 @@ All notable changes to this project will be documented in this file.
 - Fix `dinghy` binary name in the help text.
 - Switched from using launchd to managing our own daemons.
 - Added better error handling and logging for the fsev/dns/nfs daemons.
+- Switched to docker-machine for issuing ssh commands.
+- Fixed docker-machine 0.5.0 compatibility.
 
 ## 4.0.5 - 2015-10-29
 
